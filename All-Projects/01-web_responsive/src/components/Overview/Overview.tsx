@@ -29,7 +29,7 @@ export function Overview() {
               </Link>
             ))}
           </div>
-          <div className="flex justify-between">
+          <div className="flex">
             <button className="px-8 py-3 text-white mr-5 mb-5 bg-pink-400 rounded-lg">
               Empieza ya
             </button>
@@ -38,7 +38,7 @@ export function Overview() {
             </button>
           </div>
         </div>
-        <div>
+        <div className="flex justify-center">
           <Image
             src="/assets/overview.png"
             alt="Overview"
