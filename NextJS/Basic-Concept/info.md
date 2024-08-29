@@ -127,13 +127,19 @@ function name(){
 
 ## Componentes del cliente y servidor
 
-```JavaScript
-// En un componente
+### `use client`
 
-"user client"
+Permite darle interactividad a los componentes, esto involucra a los manejadores de eventos. Es por ello que se tiene que renderizar por el lado del cliente (navegador).
 
-// En otro componente
+- Los componentes llamados en otro componentes que si usa `use client`
+- Los metadata solo funcionan en componentes del lado del servidor
+- Cuando se piden o acceso a datos se usa componentes del lado del servidor
 
-"user server"
+## fetch data
 
-```
+Peticiones de datos a una API, los componentes también pueden ser funciones asincronas que muestra datos.
+Las peticiones y el envio de datos se pueden separar en componentes de servidor y cliente
+
+## Pagina loading
+
+El archivo loading permite mostrar información al usuario de que los datos se estan cargando. Este archivo se debe de llamar `loading.jsx`
