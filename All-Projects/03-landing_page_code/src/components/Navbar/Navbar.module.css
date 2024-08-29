@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.8rem 0;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+  font-weight: 700;
+  color: #27272a;
+}
+
+.options,
+.app {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  user-select: none;
+}
+
+.app .sign_up {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.4rem 0.8rem;
+}
+
+.options a:nth-child(2),
+.options a:nth-child(3),
+.options a:nth-child(4),
+.app a {
+  border-radius: 4px;
+  padding: 0.4rem 0.8rem;
+}
+
+.options a:nth-child(2):hover,
+.options a:nth-child(3):hover,
+.options a:nth-child(4):hover,
+.app a:hover {
+  background: #cccccc33;
+}
