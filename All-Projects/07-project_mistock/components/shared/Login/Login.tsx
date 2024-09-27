@@ -16,7 +16,7 @@ export function Login() {
                 width="104"
                 height="114"
               ></Image>
-              <p className="font-black text-[#002D51] text-[40px]">MiStock</p>
+              <p className="font-black text-[#6481B2] text-[40px]">MiStock</p>
             </div>
             <p className="font-bold text-[16px] text-[#284F76]">
               Inicia sesión con tu cuenta
@@ -55,18 +55,18 @@ export function Login() {
             </div>
           </div>
         </div>
-        <Button className="py-[10px] px-4 min-w-[240px] max-w-[300px] rounded-[4px] bg-[#002D51] text-white">
+        <Button className="py-[10px] px-4 min-w-[240px] max-w-[300px] rounded-[4px] bg-[#6481B2] text-white">
           Iniciar sesión
         </Button>
       </div>
-      <div className="w-[580px] h-[800px] bg-[#002D51] rounded-tl-[4px] rounded-tr-[24px] rounded-br-[24px] rounded-bl-[4px] relative right-[-9px]">
+      <div className="w-[580px] h-[800px] bg-[#6481B2] rounded-tl-[4px] rounded-tr-[24px] rounded-br-[24px] rounded-bl-[4px] relative right-[-9px]">
         <div className="absolute top-[240px] right-[48px] flex flex-col gap-[48px] justify-center items-center">
           <h3 className="font-extrabold text-[64px] text-[#F5EDED]">¡Hola!</h3>
           <p className="text-[24px] font-normal text-[#F5EDED] w-[480px]">
             Regístrese con sus datos personales para utilizar las funciones del
             sitio.
           </p>
-          <Button className="rounded-[8px] shadow-lg py-[10px] px-[16px] w-[330px] bg-[#F5EDED] text-[#284F76] text-[18px] font-bold">
+          <Button className="rounded-[8px] shadow-lg py-[10px] px-[16px] w-[330px] bg-[#F5EDED] text-[#6481B2] text-[18px] font-bold">
             Registrate ahora
           </Button>
         </div>
