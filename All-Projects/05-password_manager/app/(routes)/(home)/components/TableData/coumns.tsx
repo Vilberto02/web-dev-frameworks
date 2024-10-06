@@ -42,7 +42,7 @@ export const columns: ColumnDef<ColumnsProps>[] = [
       const username = row.original.username;
 
       const onEditElement = () => {
-        console.log("Editing element");
+        window.location.href = `/element/${row.original.id}`;
       };
 
       const copyItemClipboard = (item: string, name: string) => {
