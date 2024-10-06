@@ -70,7 +70,7 @@ export function FormEditElement({ dataElement }: FormEditProps) {
     try {
       await axios.patch(`/api/items/${dataElement.id}`, values);
       toast({
-        title: "Item edited Hola-PRUEBA ✅",
+        title: "Item edited ✅",
       });
 
       router.push("/");
