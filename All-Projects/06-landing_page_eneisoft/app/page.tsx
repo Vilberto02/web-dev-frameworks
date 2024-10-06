@@ -1,7 +1,11 @@
 import { ActivitiesBlock } from "@/components/shared/ActivitiesBlock";
+import { AgendaBlock } from "@/components/shared/AgendaBlock";
+import { AlliesBlock } from "@/components/shared/AlliesBlock";
 import { FirstBlock } from "@/components/shared/FirstBlock/FirstBlock";
+import { Footer } from "@/components/shared/Footer";
 import { Header } from "@/components/shared/Header";
 import { SpeakersBlock } from "@/components/shared/SpeakersBlock";
+import { SponsorsBlock } from "@/components/shared/SponsorsBlock";
 import { WeBlock } from "@/components/shared/WeBlock";
 
 /*
@@ -17,6 +21,10 @@ export default function Home() {
       <WeBlock></WeBlock>
       <ActivitiesBlock></ActivitiesBlock>
       <SpeakersBlock></SpeakersBlock>
+      <AlliesBlock></AlliesBlock>
+      <SponsorsBlock></SponsorsBlock>
+      <AgendaBlock></AgendaBlock>
+      <Footer></Footer>
     </div>
   );
 }
