@@ -76,7 +76,10 @@ export function HeaderMain(props: HeaderMainProps) {
             <DialogTitle>Nuevo Elemento</DialogTitle>
           </DialogHeader>
           {typeElement === "password" && (
-            <FormAddElement userId={userId}></FormAddElement>
+            <FormAddElement
+              userId={userId}
+              closeDialog={closedDialogAndDropdown}
+            ></FormAddElement>
           )}
           {typeElement === "folder" && <p>Nueva carpeta</p>}
         </DialogContent>

@@ -84,7 +84,9 @@ export function FormEditElement({ dataElement }: FormEditProps) {
 
   return (
     <div>
-      Edit Page
+      <h1 className="text-xs md:text-xl font-semibold pb-6">
+        Editar elementos
+      </h1>
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}

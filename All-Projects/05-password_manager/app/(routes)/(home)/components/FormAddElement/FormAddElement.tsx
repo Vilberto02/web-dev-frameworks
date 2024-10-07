@@ -36,7 +36,7 @@ import axios from "axios";
 import { useRouter } from "next/navigation";
 
 export function FormAddElement(props: FormAddElementsProps) {
-  const { userId } = props;
+  const { userId, closeDialog } = props;
   const [showPassword, setShowPassword] = useState(false);
 
   const router = useRouter();
