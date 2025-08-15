@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+* {
+  font-family: "DM Sans";
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #66150e;
+  --secondary: rgba(217, 180, 131, 0.2);
+  --textSection: #676767;
+}

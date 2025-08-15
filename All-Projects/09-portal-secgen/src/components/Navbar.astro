@@ -1,0 +1,20 @@
+---
+import "../styles/global.css";
+import Logo from "../assets/logo.png"
+---
+
+<header class="w-screen px-32 my-4 py-3 flex justify-between items-center">
+  <div class="flex items-center gap-4 cursor-pointer select-none">
+    <img src={Logo.src} width="38" height="44" alt="Secretaria HomePage">
+    <p class="font-bold text-lg">Secretaría General</p>
+  </div>
+  <div class="flex items-center gap-36 font-medium">
+    <nav class="uppercase flex gap-44">
+      <a href="#home">inicio</a>
+      <a href="">nosotros</a>
+      <a href="#service">servicios</a>
+      <a href="">unidades</a>
+    </nav>
+    <button class="px-4 py-2 rounded-md bg-[var(--primary)] text-white font-medium cursor-pointer">Contacto</button>
+  </div>
+</header>
